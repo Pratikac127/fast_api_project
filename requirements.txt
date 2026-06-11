@@ -4,3 +4,5 @@ pydantic
 scikit-learn
 pandas
 streamlit
+redis
+dotenv
