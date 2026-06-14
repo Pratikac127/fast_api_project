@@ -7,3 +7,4 @@ streamlit
 redis
 dotenv
 prometheus-fastapi-instrumentator
+python-jose

@@ -15,6 +15,6 @@ app.include_router(routes_auth.router)
 
 app.include_router(route_predict.api_router)
 
-Instrumentator.instrument(app).expose(app)
+Instrumentator().instrument(app).expose(app)
 
 register_exception_handler(app)

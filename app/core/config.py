@@ -11,7 +11,7 @@ class Settings:
     jwt_secret_key: str = os.getenv("JWT_SECRET_KEY")
     jwt_algorithm: str = "HS256"
     redis_url: str = os.getenv("REDIS_URL")
-    model_path: str = "app/models/model.pkl"
+    model_path: str = "app/models/model.joblib"
 
 
 settings = Settings()
